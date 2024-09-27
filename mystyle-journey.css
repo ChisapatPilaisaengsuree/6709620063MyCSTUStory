@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* body start */
 body {
     width: 100%;
     font-family: Arial, sans-serif;
@@ -16,6 +17,7 @@ header {
     text-align: center;
 }
 
+/* nav start */
 nav a {
     text-decoration: none;
     font-family: Arial, sans-serif;
@@ -34,15 +36,25 @@ nav a {
 nav a:hover, .contact:hover .dropbtn {
     background-color: #f1f1f1;
 }
+/* nav end */
+
+/* main start */
+.photo {
+    position: relative;
+    top: 15px;
+    left: 15.5cm;
+    margin: 0;
+}
 
 section {
-    margin: 65px auto;
+    margin: 20px 100px;
     text-indent: 120px;
     padding: 20px;
     background-color: azure;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
+/* main end */
 
 footer {
     text-align: center;
@@ -50,3 +62,4 @@ footer {
     padding: 10px 0;
     background-color: #eb8c55;
 }
+/* body end */
